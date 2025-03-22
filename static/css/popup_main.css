@@ -1,0 +1,10 @@
+h1 {
+  white-space: nowrap; /* 텍스트가 줄바꿈되지 않고 한 줄로 유지 */
+}
+body {
+  min-width: 300px; /* 팝업 창의 최소 너비를 설정해 텍스트가 잘리지 않도록 */
+}
+
+#preview {
+  max-width: 200px; display: inline;
+}
