@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "내 첫 확장 프로그램",
   "version": "1.0",
-  "description": "간단한 크롬 확장 프로그램",
+  "description": "A Chrome Extension to create avatars and dress them up",
   "action": {
     "default_popup": "static/html/popup.html",
     "default_icon": {

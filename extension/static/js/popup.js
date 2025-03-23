@@ -1,16 +1,11 @@
 
  $(document).ready(function() {
-    console.log("check1")
     $('#imageInput').on('change', function(event) {
-      console.log("check2")
       const file = this.files [0];  // jQuery 이벤트 핸들러에서 this는 DOM 요소를 가리킴
       if(file) {
-        console.log("check2.1")
         const reader = new FileReader();
         reader.readAsDataURL(file);
-        console.log("check2.2")
         reader.onload = function(e) {
-          console.log("check2.3")
           $('#preview').attr('src', e.target.result).show();
           console.log("check3")
         }
